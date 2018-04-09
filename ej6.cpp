@@ -21,10 +21,6 @@ void copiar1(char*cad1,char*cad2)
 void copiar2(char *cad1,char *cad2)
 {
     cad2=cad1;
-    while(cad2=='\0')
-    {
-        cad2++;
-    }
     cout<<cad2<<endl;
 }
 
