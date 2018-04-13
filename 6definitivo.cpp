@@ -34,8 +34,8 @@ char*copiar2(char *cad1,char *cad2)
    t=tam(cad1);
    cad2=new char[t];
    while(*cad1!='\0')
-   {   char auxiliar=*cad1;
-       *cad2=auxiliar;
+   {   
+       *cad2=*cad1;
        cad1++;
        cad2++;
    }
